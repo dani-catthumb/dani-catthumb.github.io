@@ -1,0 +1,14 @@
+[
+    {
+        "name": "items1",
+        "values": ["apple", "banana", "cherry"]
+    },
+    {
+        "name": "items2",
+        "values": ["dog", "elephant", "fox"]
+    },
+    {
+        "name": "items3",
+        "values": ["grape", "honeydew", "kiwi"]
+    }
+]

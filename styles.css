@@ -1,0 +1,13 @@
+/* Center text for the entire document */
+body, header, main, footer {
+  text-align: center;
+}
+
+/* Optional: If you want to ensure vertical centering as well (not strictly necessary with text alignment) */
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+}
