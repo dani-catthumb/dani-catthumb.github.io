@@ -1,57 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title Here</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
-       
-  </head>
-  <body>
+
+</head>
+
+<body>
     <header>
-      <h1>Your Main Heading Here</h1>
+        <h1>Your Main Heading Here</h1>
     </header>
     <main id="content-display"></main>
     <footer>
-      <p>Copyright © 2023 Your Name. All rights reserved.</p>
+        <p>Copyright © 2023 Your Name. All rights reserved.</p>
     </footer>
     <script>
-      // Function to fetch and display the content of content.json
-      async function fetchContent() {
-        try {
-          const response = await fetch('content.json');
-          if (!response.ok) {
-            throw new Error('Network response was not ok ' + response.statusText);
-          }
-          const data = await response.json();
-          displayContent(data);
-        } catch (error) {
-          console.error('There has been a problem with your fetch operation:', error);
+        async function fetchContent() {
+            const response = await fetch('content.json');
+            const data = await response.json();
+            displayContent(data);
         }
-      }
 
-      // Function to display the content in the main element
-      function displayContent(content) {
-        const mainElement = document.getElementById('content-display');
-        if (mainElement) {
-          content.forEach(item => {
-            const list = document.createElement('ul');
-            item.values.forEach(value => {
-              const listItem = document.createElement('li');
-              listItem.textContent = value;
-              list.appendChild(listItem);
+        function displayContent(content) {
+            const mainElement = document.getElementById('content-display');
+
+            content.forEach(item => {
+
+                const list = document.createElement('ul');
+                item.values.forEach(value => {
+
+                    const listItem = document.createElement('li');
+                    listItem.textContent = value;
+                    list.appendChild(listItem);
+
+                });
+
+                mainElement.appendChild(list);
             });
-            mainElement.appendChild(list);
-          });
-        } else {
-          console.error("Main element with id 'content-display' not found.");
         }
-      }
 
-      // Call the fetchContent function when the window loads
-      window.onload = fetchContent;
+        window.onload = fetchContent;
     </script>
-  </body>
+</body>
+
 </html>
