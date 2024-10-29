@@ -13,13 +13,14 @@ body {
     height: 100vh;
 }
 
-main>ul {
-    font-size: 2.5em;
+#content-display>.container-div {
+    display: flex;
+    padding: 1em;
+    flex-direction: row;
+    justify-content: center;
 }
 
-main>ul>li {
-    text-align: left;
-    font-size: 0.5em;
-    list-style-type: none;
-    padding: 0 0 0 1em;
+.container-div>.value-div,
+.container-div>.tag-div {
+    margin: 0 10px;
 }

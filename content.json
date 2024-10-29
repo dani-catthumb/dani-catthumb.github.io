@@ -1,14 +1,38 @@
 [
     {
-        "name": "items1",
-        "values": ["apple", "banana", "cherry"]
+        "value": "apple",
+        "tag": "items1"
     },
     {
-        "name": "items2",
-        "values": ["dog", "elephant", "fox"]
+        "value": "banana",
+        "tag": "items1"
     },
     {
-        "name": "items3",
-        "values": ["grape", "honeydew", "kiwi"]
+        "value": "cherry",
+        "tag": "items1"
+    },
+    {
+        "value": "dog",
+        "tag": "items2"
+    },
+    {
+        "value": "elephant",
+        "tag": "items2"
+    },
+    {
+        "value": "fox",
+        "tag": "items2"
+    },
+    {
+        "value": "grape",
+        "tag": "items3"
+    },
+    {
+        "value": "honeydew",
+        "tag": "items3"
+    },
+    {
+        "value": "kiwi",
+        "tag": "items3"
     }
 ]

@@ -7,45 +7,26 @@
     <title>Your Page Title Here</title>
     <link rel="stylesheet" href="/styles.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
 </head>
 
 <body>
     <header>
         <h1>Your Main Heading Here</h1>
     </header>
-    <main id="content-display"></main>
+    <main>
+        <div id="search-bar">
+            <input type="text" id="search-input" oninput="handleSearchInput()">
+        </div>
+        <div id="content-display"></div>
+    </main>
     <footer>
         <p>Copyright © 2023 Your Name. All rights reserved.</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+    <script src="/script.js"></script>
     <script>
-        async function fetchContent() {
-            const response = await fetch('content.json');
-            const data = await response.json();
-            displayContent(data);
-        }
-
-        function displayContent(content) {
-            const mainElement = document.getElementById('content-display');
-
-            content.forEach(item => {
-
-                const list = document.createElement('ul');
-                list.innerHTML = item.name;
-                item.values.forEach(value => {
-
-                    const listItem = document.createElement('li');
-                    listItem.textContent = value;
-                    list.appendChild(listItem);
-
-                });
-
-                mainElement.appendChild(list);
-            });
-        }
-
         window.onload = fetchContent;
     </script>
-</body>
+
 
 </html>
