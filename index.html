@@ -13,14 +13,16 @@
     <header>
         <h1>Your Main Heading Here</h1>
     </header>
+    <div class="form__group field">
+        <input id="search-input" oninput="handleSearchInput()" type="input" class="form__field" placeholder="Name"
+            name="search-input" required />
+        <label for="search-input" class="form__label">Name</label>
+    </div>
     <main>
-        <div id="search-bar">
-            <input type="text" id="search-input" oninput="handleSearchInput()">
-        </div>
         <div id="content-display"></div>
     </main>
     <footer>
-        <p>Copyright © 2023 Your Name. All rights reserved.</p>
+        <p><a href="https://codepen.io/lucasyem">Search bar</a> by Lucas Oliveira</p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
     <script src="/script.js"></script>
