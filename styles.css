@@ -1,8 +1,17 @@
 body,
 header,
-main,
-footer {
+main
+{
     text-align: center;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    text-align: right;
+    align-self: end;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
 body {
@@ -97,18 +106,12 @@ body {
 
 @import 'https://fonts.googleapis.com/css?family=Lora:400,700';
 
-/* * {
-  box-sizing: border-box;
-} */
-
 a {
   cursor: pointer;
 }
 
-p {
-  max-width: 760px;
-  font-size: 0.5em;
-  font-weight: 300;
+footer > p {
+  font-size: 0.6em;
 }
 
 .link-1 {
