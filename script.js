@@ -1,6 +1,10 @@
-async function fetchContent() {
+async function getData() {
     const response = await fetch('content.json');
-    const data = await response.json();
+    return await response.json();
+}
+
+async function fetchContent() {
+    const data = await getData();
     displayContent(data);
 }
 
@@ -27,6 +31,8 @@ function createContainerDiv(...children) {
 
 function displayContent(content) {
     const mainElement = document.getElementById('content-display');
+    mainElement.innerHTML = '';
+
     content.forEach(item => {
         const containerDiv = createContainerDiv(createValueDiv(item.value), createTagDiv(item.tag));
         mainElement.appendChild(containerDiv);
@@ -35,15 +41,23 @@ function displayContent(content) {
 
 async function handleSearchInput() {
     const inputText = document.getElementById('search-input').value;
-    const response = await fetch('content.json');
-    const data = await response.json();
-    const options = {
-        keys: ['value'],
-        threshold: 0.2
-    };
+    const data = await getData();
 
-    const fuse = new Fuse(data, options);
+    if (inputText) {
+        const options = {
+            keys: ['value'],
+            threshold: 0.2
+        };
+        const fuse = new Fuse(data, options);
+        const result = fuse.search(inputText);
+        
+        const fuzzyMatchedData = result.map(res => {
+            const item = data.find(item => item[options.keys[0]] === res.item[options.keys[0]]);
+            return { ...item };
+        });
 
-    const result = fuse.search(inputText);
-    console.log(result);
+        displayContent(fuzzyMatchedData);
+    } else {
+        displayContent(data);
+    }
 }
