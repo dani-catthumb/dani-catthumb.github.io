@@ -44,7 +44,7 @@ footer {
   border-top: 2px solid #ccc;
   background: white;
   padding: 1em;
-  position: sticky;
+  position: fixed;
   bottom: 0;
   z-index: 1;
 }  
@@ -145,14 +145,14 @@ footer {
   box-shadow: none;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Lora:400,700';
-
 a {
   cursor: pointer;
 }
 
 footer>p {
-  font-size: 0.6em;
+  font-size: 0.8em;
+  padding: 0.3em;
+  margin: 0;
 }
 
 .link-2 {
