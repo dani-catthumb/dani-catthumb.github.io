@@ -34,5 +34,90 @@
     {
         "value": "kiwi",
         "tag": "items3"
+    },
+    {
+        "value": "lemon",
+        "tag": "items4"
+    },
+    {
+        "value": "mango",
+        "tag": "items4"
+    },
+    {
+        "value": "nectarine",
+        "tag": "items4"
+    },
+    {
+        "value": "orange",
+        "tag": "items5"
+    },
+    {
+        "value": "pineapple",
+        "tag": "items5"
+    },
+    {
+        "value": "quince",
+        "tag": "items5"
+    },
+    {
+        "value": "raspberry",
+        "tag": "items6"
+    },
+    {
+        "value": "strawberry",
+        "tag": "items6"
+    },
+    {
+        "value": "tangerine",
+        "tag": "items6"
+    },
+    {
+        "value": "blueberry",
+        "tag": "items7"
+    },
+    {
+        "value": "blackberry",
+        "tag": "items7"
+    },
+    {
+        "value": "cranberry",
+        "tag": "items7"
+    },
+    {
+        "value": "date",
+        "tag": "items8"
+    },
+    {
+        "value": "elderberry",
+        "tag": "items8"
+    },
+    {
+        "value": "fig",
+        "tag": "items8"
+    },
+    {
+        "value": "grapefruit",
+        "tag": "items9"
+    },
+    {
+        "value": "huckleberry",
+        "tag": "items9"
+    },
+    {
+        "value": "jujube",
+        "tag": "items9"
+    },
+    {
+        "value": "kiwifruit",
+        "tag": "items10"
+    },
+    {
+        "value": "lime",
+        "tag": "items10"
+    },
+    {
+        "value": "mangosteen",
+        "tag": "items10"
     }
 ]
+
