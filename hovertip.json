@@ -1,0 +1,18 @@
+[
+    {
+        "class":"1st-class",
+        "hovertip":"1st class text"
+    },
+    {
+        "class":"2nd-class",
+        "hovertip":"2nd class text"
+    },
+    {
+        "class":"3rd-class",
+        "hovertip":"3rd class text"
+    },
+    {
+        "class":"4th-class",
+        "hovertip":"4th class text"
+    }
+]
