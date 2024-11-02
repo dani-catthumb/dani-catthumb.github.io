@@ -33,7 +33,7 @@ main {
   justify-content: center;
   align-items: center;
   z-index: 0;
-  padding-bottom: var(--footer-height);
+  padding-bottom: calc(var(--footer-height)*2);
 }
 
 footer {
@@ -232,12 +232,12 @@ abbr {
 abbr:hover::after {
   background: #add8e6;
   border-radius: 4px;
-  bottom: -30%;
-  content: attr(title);
+  top: 0%;
+  content: attr(data-tooltip);
   display: block;
   left: 125%;
   padding: 0.3em;
   position: absolute;    
-  width: max-content;
+  width: 100%;
   z-index: 1;
 }

@@ -36,7 +36,7 @@ function createTagAbbr(tag, hovertipJSON) {
     const tagAbbr = document.createElement('abbr');
     tagAbbr.textContent = tag;
     const hovertipText = getHovertipText(tag, hovertipJSON);
-    tagAbbr.title = hovertipText
+    tagAbbr.dataset.tooltip = hovertipText;
 
     return tagAbbr;
 }
