@@ -98,8 +98,12 @@ async function handleSearchInput() {
         });
 
         const fifthClassData = getFifthClassArray(data);
+        // adding all fifth-class data to fuzzy matched data
+        combinedData = [...fuzzyMatchedData, ...fifthClassData];
+        // removing any duplicates
+        const uniqueCombinedData = Array.from(new Set(combinedData.map(JSON.stringify))).map(JSON.parse);
         
-        displayContent([...fuzzyMatchedData, ...fifthClassData]);
+        displayContent(uniqueCombinedData);
     } else {
         displayContent(data);
     }
