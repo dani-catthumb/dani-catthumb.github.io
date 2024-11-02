@@ -1,123 +1,122 @@
 [
     {
         "value": "apple",
-        "tag": "items1"
+        "tag": "1st class"
     },
     {
         "value": "banana",
-        "tag": "items1"
+        "tag": "1st class"
     },
     {
         "value": "cherry",
-        "tag": "items1"
+        "tag": "1st class"
     },
     {
         "value": "dog",
-        "tag": "items2"
+        "tag": "2nd class"
     },
     {
         "value": "elephant",
-        "tag": "items2"
+        "tag": "2nd class"
     },
     {
         "value": "fox",
-        "tag": "items2"
+        "tag": "2nd class"
     },
     {
         "value": "grape",
-        "tag": "items3"
+        "tag": "3rd class"
     },
     {
         "value": "honeydew",
-        "tag": "items3"
+        "tag": "3rd class"
     },
     {
         "value": "kiwi",
-        "tag": "items3"
+        "tag": "3rd class"
     },
     {
         "value": "lemon",
-        "tag": "items4"
+        "tag": "4th class"
     },
     {
         "value": "mango",
-        "tag": "items4"
+        "tag": "4th class"
     },
     {
         "value": "nectarine",
-        "tag": "items4"
+        "tag": "4th class"
     },
     {
         "value": "orange",
-        "tag": "items5"
+        "tag": "5th class"
     },
     {
         "value": "pineapple",
-        "tag": "items5"
+        "tag": "5th class"
     },
     {
         "value": "quince",
-        "tag": "items5"
+        "tag": "5th class"
     },
     {
         "value": "raspberry",
-        "tag": "items6"
+        "tag": "6th class"
     },
     {
         "value": "strawberry",
-        "tag": "items6"
+        "tag": "6th class"
     },
     {
         "value": "tangerine",
-        "tag": "items6"
+        "tag": "6th class"
     },
     {
         "value": "blueberry",
-        "tag": "items7"
+        "tag": "7th class"
     },
     {
         "value": "blackberry",
-        "tag": "items7"
+        "tag": "7th class"
     },
     {
         "value": "cranberry",
-        "tag": "items7"
+        "tag": "7th class"
     },
     {
         "value": "date",
-        "tag": "items8"
+        "tag": "8th class"
     },
     {
         "value": "elderberry",
-        "tag": "items8"
+        "tag": "8th class"
     },
     {
         "value": "fig",
-        "tag": "items8"
+        "tag": "8th class"
     },
     {
         "value": "grapefruit",
-        "tag": "items9"
+        "tag": "9th class"
     },
     {
         "value": "huckleberry",
-        "tag": "items9"
+        "tag": "9th class"
     },
     {
         "value": "jujube",
-        "tag": "items9"
+        "tag": "9th class"
     },
     {
         "value": "kiwifruit",
-        "tag": "items10"
+        "tag": "10th class"
     },
     {
         "value": "lime",
-        "tag": "items10"
+        "tag": "10th class"
     },
     {
         "value": "mangosteen",
-        "tag": "items10"
+        "tag": "10th class"
     }
 ]
-

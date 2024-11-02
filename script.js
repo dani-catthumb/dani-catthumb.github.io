@@ -17,8 +17,14 @@ function createValueDiv(value) {
 
 function createTagDiv(tag) {
     const tagDiv = document.createElement('div');
-    tagDiv.textContent = tag;
     tagDiv.classList.add("tag-div");
+
+    const tagAbbr = document.createElement('abbr');
+    tagAbbr.textContent = tag;
+    tagAbbr.title = tag;
+    
+    tagDiv.appendChild(tagAbbr);
+    
     return tagDiv;
 }
 

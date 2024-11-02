@@ -200,3 +200,21 @@ footer>p {
   width: 0%;
   transition: all ease 0.2s;
 }
+
+abbr {
+  position: relative;
+  text-decoration: none;
+}
+
+abbr:hover::after {
+  background: #add8e6;
+  border-radius: 4px;
+  bottom: -30%;
+  content: attr(title);
+  display: block;
+  left: 125%;
+  padding: 0.3em;
+  position: absolute;    
+  width: 100%;
+  z-index: 1;
+}
