@@ -1,122 +1,54 @@
 [
     {
-        "value": "apple",
-        "tag": "1st-class"
+        "value": "Python",
+        "tag": "first-class"
     },
     {
-        "value": "banana",
-        "tag": "1st-class"
+        "value": "Git",
+        "tag": "first-class"
     },
     {
-        "value": "cherry",
-        "tag": "1st-class"
+        "value": "Object-Oriented-Programming",
+        "tag": "first-class"
     },
     {
         "value": "dog",
-        "tag": "2nd-class"
+        "tag": "second-class"
     },
     {
         "value": "elephant",
-        "tag": "2nd-class"
+        "tag": "second-class"
     },
     {
         "value": "fox",
-        "tag": "2nd-class"
+        "tag": "second-class"
     },
     {
         "value": "grape",
-        "tag": "3rd-class"
+        "tag": "third-class"
     },
     {
         "value": "honeydew",
-        "tag": "3rd-class"
+        "tag": "third-class"
     },
     {
         "value": "kiwi",
-        "tag": "3rd-class"
+        "tag": "third-class"
     },
     {
         "value": "lemon",
-        "tag": "4th-class"
+        "tag": "fourth-class"
     },
     {
         "value": "mango",
-        "tag": "4th-class"
+        "tag": "fourth-class"
     },
     {
         "value": "nectarine",
-        "tag": "4th-class"
+        "tag": "fourth-class"
     },
     {
-        "value": "orange",
-        "tag": "5th-class"
-    },
-    {
-        "value": "pineapple",
-        "tag": "5th-class"
-    },
-    {
-        "value": "quince",
-        "tag": "5th-class"
-    },
-    {
-        "value": "raspberry",
-        "tag": "6th-class"
-    },
-    {
-        "value": "strawberry",
-        "tag": "6th-class"
-    },
-    {
-        "value": "tangerine",
-        "tag": "6th-class"
-    },
-    {
-        "value": "blueberry",
-        "tag": "7th-class"
-    },
-    {
-        "value": "blackberry",
-        "tag": "7th-class"
-    },
-    {
-        "value": "cranberry",
-        "tag": "7th-class"
-    },
-    {
-        "value": "date",
-        "tag": "8th-class"
-    },
-    {
-        "value": "elderberry",
-        "tag": "8th-class"
-    },
-    {
-        "value": "fig",
-        "tag": "8th-class"
-    },
-    {
-        "value": "grapefruit",
-        "tag": "9th-class"
-    },
-    {
-        "value": "huckleberry",
-        "tag": "9th-class"
-    },
-    {
-        "value": "jujube",
-        "tag": "9th-class"
-    },
-    {
-        "value": "kiwifruit",
-        "tag": "10th-class"
-    },
-    {
-        "value": "lime",
-        "tag": "10th-class"
-    },
-    {
-        "value": "mangosteen",
-        "tag": "10th-class"
+        "value": "Other...",
+        "tag": "fifth-class"
     }
 ]

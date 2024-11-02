@@ -1,18 +1,22 @@
 [
     {
-        "class":"1st-class",
-        "hovertip":"1st class text"
+        "class":"first-class",
+        "hovertip":"I Use This Skill Daily/Almost Daily."
     },
     {
-        "class":"2nd-class",
-        "hovertip":"2nd class text"
+        "class":"second-class",
+        "hovertip":"I Use/Used This Skill For A Few Things Here And There."
     },
     {
-        "class":"3rd-class",
-        "hovertip":"3rd class text"
+        "class":"third-class",
+        "hovertip":"I Used This At Least Once Before."
     },
     {
-        "class":"4th-class",
-        "hovertip":"4th class text"
+        "class":"fourth-class",
+        "hovertip":"I Have Heard Of This."
+    },
+    {
+        "class":"fifth-class",
+        "hovertip":"Anything I Have Heard Of But Forgot."
     }
 ]
