@@ -22,7 +22,7 @@ function createValueDiv(value) {
 
 function getHovertipText(tag, hovertipJSON) {
     const matchedObject = hovertipJSON.find(obj => obj.class === tag);
-    
+
     if (matchedObject) {
         return matchedObject.hovertip;
     }
@@ -74,6 +74,10 @@ async function displayContent(content) {
     });
 }
 
+function getFifthClassArray(data) {
+    return data.filter(item => item.tag === 'fifth-class');
+}
+
 async function handleSearchInput() {
     const inputText = document.getElementById('search-input').value;
     const data = await getData();
@@ -87,11 +91,15 @@ async function handleSearchInput() {
         const result = fuse.search(inputText);
 
         const fuzzyMatchedData = result.map(res => {
-            const item = data.find(item => item[options.keys[0]] === res.item[options.keys[0]]);
-            return { ...item };
+            const items = data.find(
+                item => (item.value === res.item.value)
+            );
+            return { ...items };
         });
 
-        displayContent(fuzzyMatchedData);
+        const fifthClassData = getFifthClassArray(data);
+        
+        displayContent([...fuzzyMatchedData, ...fifthClassData]);
     } else {
         displayContent(data);
     }
