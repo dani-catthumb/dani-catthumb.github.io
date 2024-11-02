@@ -8,31 +8,59 @@
         "tag": "first-class"
     },
     {
-        "value": "Object-Oriented-Programming",
+        "value": "Object-Oriented Programming",
         "tag": "first-class"
     },
     {
-        "value": "dog",
+        "value": "Functional Programming",
+        "tag": "first-class"
+    },
+    {
+        "value": "Threading",
+        "tag": "first-class"
+    },
+    {
+        "value": "GUI Applications",
+        "tag": "first-class"
+    },
+    {
+        "value": "Debugging",
+        "tag": "first-class"
+    },
+    {
+        "value": "Web Scraping",
         "tag": "second-class"
     },
     {
-        "value": "elephant",
+        "value": "C++",
         "tag": "second-class"
     },
     {
-        "value": "fox",
+        "value": "Angular",
         "tag": "second-class"
     },
     {
-        "value": "grape",
-        "tag": "third-class"
+        "value": "Php",
+        "tag": "second-class"
     },
     {
-        "value": "honeydew",
-        "tag": "third-class"
+        "value": "JavaScript",
+        "tag": "second-class"
     },
     {
-        "value": "kiwi",
+        "value": "TypeScript",
+        "tag": "second-class"
+    },
+    {
+        "value": "Binary Reverse Engineering",
+        "tag": "second-class"
+    },
+    {
+        "value": "Browser Dev-Tools",
+        "tag": "second-class"
+    },
+    {
+        "value": "lemon",
         "tag": "third-class"
     },
     {
