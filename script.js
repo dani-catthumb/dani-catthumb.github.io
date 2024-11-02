@@ -20,13 +20,27 @@ function createValueDiv(value) {
     return valueDiv;
 }
 
+function getHovertipText(tag, hovertipJSON) {
+    const matchedObject = hovertipJSON.find(obj => obj.class === tag);
+    
+    if (matchedObject) {
+        return matchedObject.hovertip;
+    }
+    else {
+        return tag;
+    }
+}
+
 function createTagAbbr(tag, hovertipJSON) {
+
     const tagAbbr = document.createElement('abbr');
     tagAbbr.textContent = tag;
-    tagAbbr.title = tag;
+    const hovertipText = getHovertipText(tag, hovertipJSON);
+    tagAbbr.title = hovertipText
 
-    return tagAbbr
+    return tagAbbr;
 }
+
 
 function createTagDiv(tag, hovertipJSON) {
     const tagDiv = document.createElement('div');

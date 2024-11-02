@@ -215,6 +215,6 @@ abbr:hover::after {
   left: 125%;
   padding: 0.3em;
   position: absolute;    
-  width: 100%;
+  width: max-content;
   z-index: 1;
 }
