@@ -1,11 +1,11 @@
 [
     {
         "class":"first-class",
-        "hovertip":"I Use This Skill Daily/Almost Daily."
+        "hovertip":"I Use This Daily Or Almost Daily."
     },
     {
         "class":"second-class",
-        "hovertip":"I Use/Used This Skill For A Few Things Here And There."
+        "hovertip":"I Use Or Used This For A Few Things Here And There."
     },
     {
         "class":"third-class",
@@ -17,6 +17,6 @@
     },
     {
         "class":"fifth-class",
-        "hovertip":"Anything I Have Heard Of But Forgot."
+        "hovertip":"Anything I Have Heard Of Or Used, But Forgot Or Decided To Omit."
     }
 ]
