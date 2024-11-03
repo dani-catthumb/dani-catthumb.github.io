@@ -8,6 +8,10 @@
         "tag": "first-class"
     },
     {
+        "value": "Data Analysis",
+        "tag": "first-class"
+    },
+    {
         "value": "Object-Oriented Programming",
         "tag": "first-class"
     },
@@ -76,6 +80,10 @@
         "tag": "second-class"
     },
     {
+        "value": "Android",
+        "tag": "second-class"
+    },
+    {
         "value": "Shell Scripting",
         "tag": "second-class"
     },
@@ -100,7 +108,19 @@
         "tag": "second-class"
     },
     {
+        "value": "JSON",
+        "tag": "second-class"
+    },
+    {
         "value": "Java",
+        "tag": "third-class"
+    },
+    {
+        "value": "Node.js",
+        "tag": "third-class"
+    },
+    {
+        "value": "Flask",
         "tag": "third-class"
     },
     {
@@ -116,6 +136,26 @@
         "tag": "third-class"
     },
     {
+        "value": "PostgreSQL",
+        "tag": "third-class"
+    },
+    {
+        "value": "MariaDB",
+        "tag": "third-class"
+    },
+    {
+        "value": "Selenium",
+        "tag": "third-class"
+    },
+    {
+        "value": "Scrapy, BeautifulSoup",
+        "tag": "third-class"
+    },
+    {
+        "value": "XML",
+        "tag": "third-class"
+    },
+    {
         "value": "Virtual Private Servers",
         "tag": "third-class"
     },
@@ -124,7 +164,23 @@
         "tag": "third-class"
     },
     {
+        "value": "Tailwind CSS",
+        "tag": "third-class"
+    },
+    {
+        "value": "Bootstrap",
+        "tag": "third-class"
+    },
+    {
+        "value": "Odoo",
+        "tag": "third-class"
+    },
+    {
         "value": "C#",
+        "tag": "fourth-class"
+    },
+    {
+        "value": ".NET Framework",
         "tag": "fourth-class"
     },
     {
@@ -140,15 +196,15 @@
         "tag": "fourth-class"
     },
     {
-        "value": "Ruby",
-        "tag": "fourth-class"
-    },
-    {
         "value": "Kotlin",
         "tag": "fourth-class"
     },
     {
         "value": "Go",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "macOS",
         "tag": "fourth-class"
     },
     {
@@ -160,7 +216,19 @@
         "tag": "fourth-class"
     },
     {
-        "value": "Ruby",
+        "value": "Ruby, Rails",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Laravel, Symfony",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Proxy, Reverse Proxy",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "VPN",
         "tag": "fourth-class"
     },
     {
@@ -168,7 +236,59 @@
         "tag": "fourth-class"
     },
     {
+        "value": "React, Svelte, Vue.js",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "RabbitMQ",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "REST API",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "GraphQL API",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "WordPress",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Drupal",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "MySQL",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "MS SQL Server",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "LAMP Stack",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "MEAN, MERN Stacks",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Kubernetes",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Elasticsearch",
+        "tag": "fourth-class"
+    },
+    {
         "value": "Unit Testing",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Jira",
         "tag": "fourth-class"
     },
     {
@@ -177,6 +297,10 @@
     },
     {
         "value": "Agile",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Azure, AWS, GCP",
         "tag": "fourth-class"
     },
     {
