@@ -58,6 +58,7 @@ footer {
   padding: 1em;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 3px #ccc solid;
 }
 
 .container-div>.value-div,
