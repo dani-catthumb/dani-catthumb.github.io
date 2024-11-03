@@ -28,6 +28,10 @@
         "tag": "first-class"
     },
     {
+        "value": "SOLID, DRY, KISS",
+        "tag": "first-class"
+    },
+    {
         "value": "Web Scraping",
         "tag": "second-class"
     },
@@ -52,6 +56,10 @@
         "tag": "second-class"
     },
     {
+        "value": "HTML, CSS",
+        "tag": "second-class"
+    },
+    {
         "value": "Binary Reverse Engineering",
         "tag": "second-class"
     },
@@ -60,19 +68,127 @@
         "tag": "second-class"
     },
     {
-        "value": "lemon",
+        "value": "Linux",
+        "tag": "second-class"
+    },
+    {
+        "value": "Windows",
+        "tag": "second-class"
+    },
+    {
+        "value": "Shell Scripting",
+        "tag": "second-class"
+    },
+    {
+        "value": "Bash",
+        "tag": "second-class"
+    },
+    {
+        "value": "Powershell",
+        "tag": "second-class"
+    },
+    {
+        "value": "Virtual Machines",
+        "tag": "second-class"
+    },
+    {
+        "value": "Embedded Firmware Development",
+        "tag": "second-class"
+    },
+    {
+        "value": "MS Office Ecosystem",
+        "tag": "second-class"
+    },
+    {
+        "value": "Java",
         "tag": "third-class"
     },
     {
-        "value": "lemon",
+        "value": "Docker",
+        "tag": "third-class"
+    },
+    {
+        "value": "SQLite",
+        "tag": "third-class"
+    },
+    {
+        "value": "MongoDB",
+        "tag": "third-class"
+    },
+    {
+        "value": "Virtual Private Servers",
+        "tag": "third-class"
+    },
+    {
+        "value": "Machine Learning",
+        "tag": "third-class"
+    },
+    {
+        "value": "C#",
         "tag": "fourth-class"
     },
     {
-        "value": "mango",
+        "value": "C",
         "tag": "fourth-class"
     },
     {
-        "value": "nectarine",
+        "value": "Visual Basic",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Rust",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Ruby",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Kotlin",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Go",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Swift",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Objective-C",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Ruby",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "nginx",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Unit Testing",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "QA",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "Agile",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "DevOps",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "CI/CD",
+        "tag": "fourth-class"
+    },
+    {
+        "value": "COBOL...",
         "tag": "fourth-class"
     },
     {
