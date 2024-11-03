@@ -57,7 +57,7 @@ footer {
   display: flex;
   padding: 1em;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: space-between;
 }
 
 .container-div>.value-div,
