@@ -108,3 +108,23 @@ async function handleSearchInput() {
         displayContent(data);
     }
 }
+
+// hide header&footer when user scrolls down
+window.addEventListener('scroll', function() {
+    const header = document.querySelector('header');
+
+    const footer = document.querySelector('footer');
+    if (window.scrollY > 10) {
+        header.classList.add('hidden-header');
+        header.classList.remove('visible-header');
+
+        footer.classList.add('hidden-footer');
+        footer.classList.remove('visible-footer');
+    } else {
+        header.classList.add('visible-header');
+        header.classList.remove('hidden-header');
+
+        footer.classList.add('visible-footer');
+        footer.classList.remove('hidden-footer');
+    }
+});
